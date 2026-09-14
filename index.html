@@ -3,12 +3,445 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>MEXU 2 Rules</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, "Noto Sans JP", sans-serif;
+      color: #eaf4ff;
+      background:
+        radial-gradient(circle at top, #123d70 0%, #071426 45%, #030914 100%);
+      line-height: 1.8;
+    }
+
+    header {
+      padding: 50px 20px 35px;
+      text-align: center;
+      border-bottom: 1px solid rgba(90, 180, 255, 0.35);
+      background: rgba(3, 15, 31, 0.75);
+    }
+
+    header h1 {
+      margin: 0;
+      color: #62c8ff;
+      font-size: clamp(32px, 7vw, 58px);
+      letter-spacing: 4px;
+      text-shadow: 0 0 18px rgba(55, 175, 255, 0.65);
+    }
+
+    header p {
+      margin: 12px 0 0;
+      color: #c7e7ff;
+      font-size: 16px;
+    }
+
+    .container {
+      width: min(100% - 32px, 1050px);
+      margin: 30px auto 60px;
+    }
+
+    .intro {
+      padding: 25px;
+      margin-bottom: 25px;
+      text-align: center;
+      background: rgba(12, 38, 68, 0.85);
+      border: 1px solid rgba(75, 181, 255, 0.35);
+      border-radius: 18px;
+      box-shadow: 0 0 25px rgba(0, 110, 255, 0.12);
+    }
+
+    .intro h2 {
+      margin-top: 0;
+      color: #79d3ff;
+    }
+
+    .youtube-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      color: white;
+      background: #e62117;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .youtube-button:hover {
+      background: #ff4035;
+      transform: translateY(-2px);
+    }
+
+    .rule-card {
+      margin: 22px 0;
+      padding: 25px;
+      background: rgba(8, 27, 49, 0.92);
+      border: 1px solid rgba(73, 166, 255, 0.3);
+      border-left: 5px solid #27a9ff;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 100, 255, 0.08);
+    }
+
+    .rule-card h2 {
+      margin-top: 0;
+      color: #66caff;
+      font-size: 23px;
+    }
+
+    .rule-card h3 {
+      color: #a6ddff;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 25px;
+      margin-bottom: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    .warning {
+      color: #ffd27a;
+      font-weight: bold;
+    }
+
+    .danger {
+      color: #ff9999;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 30px 20px;
+      text-align: center;
+      color: #9fc4df;
+      border-top: 1px solid rgba(90, 180, 255, 0.25);
+      background: rgba(2, 10, 22, 0.8);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 20px, 1050px);
+      }
+
+      .rule-card {
+        padding: 19px;
+      }
+
+      .rule-card h2 {
+        font-size: 20px;
+      }
+
+      header {
+        padding: 35px 15px 25px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>MEXU 2 サーバールール</h1>
-  <p>ここはMEXU 2の公式ルールサイトです。</p>
-  <h2>基本ルール</h2>
-  <p>すべてのプレイヤーが楽しく遊べるようにしましょう。</p>
+  <header>
+    <h1>MEXU 2</h1>
+    <p>公式サーバールール</p>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>MEXU 2へようこそ！</h2>
+
+      <p>
+        MEXU 2では、すべてのプレイヤーが楽しく、公平にPvPを楽しめる環境を目指しています。
+        サーバーに参加する前に、以下のルールを必ず確認してください。
+      </p>
+
+      <p>
+        MEXU 2を利用した時点で、これらのルールに同意したものとします。
+      </p>
+
+      <a
+        class="youtube-button"
+        href="https://www.youtube.com/@pvpsukeboppo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ▶ sukeboppoのYouTubeチャンネル
+      </a>
+
+      <p>
+        コントローラー勢が 本気で連打してみた結果
+      </p>
+    </section>
+
+    <section class="rule-card">
+      <h2>1. 基本ルール</h2>
+
+      <ul>
+        <li>他のプレイヤーに迷惑をかける行為は禁止です。</li>
+        <li>他のプレイヤーが不快になる発言や行動は禁止です。</li>
+        <li>スタッフの指示には従ってください。</li>
+        <li>ルールの抜け道を利用する行為も禁止です。</li>
+        <li>ルールに書かれていない行為でも、サーバーに大きな迷惑をかける場合は処罰の対象になります。</li>
+        <li>サーバーを利用した時点で、ルールに同意したものとします。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>2. チャットルール</h2>
+
+      <p>以下の行為は禁止です。</p>
+
+      <ul>
+        <li>暴言、差別的な発言、悪口</li>
+        <li>他のプレイヤーへの過度な煽り</li>
+        <li>連続して同じ文章を送るスパム行為</li>
+        <li>意味のない文字を大量に送る行為</li>
+        <li>個人情報を聞き出す行為</li>
+        <li>他のプレイヤーになりすます行為</li>
+        <li>スタッフになりすます行為</li>
+        <li>宣伝や勧誘を無断で行う行為</li>
+        <li>他のプレイヤーのプレイを妨害する発言</li>
+        <li>不具合やチートの使用を自慢する発言</li>
+      </ul>
+
+      <p class="warning">
+        PvP中の軽い煽りであっても、相手が嫌がっている場合はやめてください。
+        注意を受けた後も続けた場合、処罰されることがあります。
+      </p>
+    </section>
+
+    <section class="rule-card">
+      <h2>3. チート・不正クライアント</h2>
+
+      <p>以下の行為は厳しく禁止します。</p>
+
+      <ul>
+        <li>不正クライアントの使用</li>
+        <li>フライ、スピード、リーチなどの不正機能の使用</li>
+        <li>オートクリックや自動攻撃機能の使用</li>
+        <li>相手の位置を不正に確認する機能の使用</li>
+        <li>不正なエイム補助機能の使用</li>
+        <li>サーバーの動作を意図的に妨害する行為</li>
+        <li>バグや不具合を利用した不正な優位性の獲得</li>
+        <li>他人にチートを配布・紹介する行為</li>
+      </ul>
+
+      <p class="danger">
+        不正行為が確認された場合、警告なしでキックまたはBANになる場合があります。
+      </p>
+    </section>
+
+    <section class="rule-card">
+      <h2>4. PvPルール</h2>
+
+      <ul>
+        <li>試合中に意図的なバグ利用をしてはいけません。</li>
+        <li>試合の進行を意図的に止めてはいけません。</li>
+        <li>相手が復帰できない場所へ意図的に閉じ込めてはいけません。</li>
+        <li>試合外のプレイヤーを不必要に攻撃してはいけません。</li>
+        <li>試合中の切断や逃走を繰り返す行為は禁止です。</li>
+        <li>味方と協力して、他のプレイヤーを不公平に倒す行為は禁止です。</li>
+        <li>リスポーン直後のプレイヤーを繰り返し狙う行為は禁止です。</li>
+        <li>ゲームモードごとのルールにも従ってください。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>5. FFAルール</h2>
+
+      <p>
+        FFAでは、基本的にすべてのプレイヤーが敵です。
+      </p>
+
+      <ul>
+        <li>他のプレイヤーを自由に攻撃できます。</li>
+        <li>チームを組んで一人のプレイヤーを集中的に攻撃する行為は禁止です。</li>
+        <li>リスポーン地点での過度な待ち伏せは禁止です。</li>
+        <li>試合の進行を妨害する目的で、意図的に逃げ続ける行為は禁止です。</li>
+        <li>不具合を利用して安全な場所に入り続ける行為は禁止です。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>6. Duelルール</h2>
+
+      <p>
+        Duelでは、対戦相手と公平に1対1で戦ってください。
+      </p>
+
+      <ul>
+        <li>試合開始前に攻撃してはいけません。</li>
+        <li>試合中に外部のプレイヤーが干渉してはいけません。</li>
+        <li>不具合を利用して相手を倒してはいけません。</li>
+        <li>試合終了後は、相手への過度な煽りをやめてください。</li>
+        <li>故意に試合を長時間引き延ばす行為は禁止です。</li>
+        <li>再戦する場合は、相手の同意を尊重してください。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>7. Trainingルール</h2>
+
+      <p>
+        Trainingは、PvPの練習をするためのモードです。
+      </p>
+
+      <ul>
+        <li>練習相手への迷惑行為は禁止です。</li>
+        <li>練習中に意図的に妨害してはいけません。</li>
+        <li>不具合を利用して練習相手を一方的に倒してはいけません。</li>
+        <li>他のプレイヤーの練習を邪魔しないでください。</li>
+        <li>練習中のプレイヤーを必要以上に煽らないでください。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>8. 建築・ワールド破壊</h2>
+
+      <ul>
+        <li>許可されていない場所のブロック破壊は禁止です。</li>
+        <li>許可されていない場所へのブロック設置は禁止です。</li>
+        <li>ロビーやアリーナを破壊してはいけません。</li>
+        <li>チェストや設備を勝手に使用してはいけません。</li>
+        <li>サーバーの景観を大きく損なう建築は禁止です。</li>
+        <li>他のプレイヤーの建築物を無断で変更してはいけません。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>9. バグ・不具合の利用</h2>
+
+      <ul>
+        <li>バグを発見した場合は、スタッフへ報告してください。</li>
+        <li>バグを利用してアイテムや権限を不正に取得してはいけません。</li>
+        <li>バグを利用して壁の中や通常入れない場所へ入ってはいけません。</li>
+        <li>バグを他のプレイヤーへ広める行為は禁止です。</li>
+        <li>不具合を利用した証拠が確認された場合、処罰されることがあります。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>10. アカウント・なりすまし</h2>
+
+      <ul>
+        <li>他のプレイヤーの名前を使ってはいけません。</li>
+        <li>スタッフやオーナーになりすましてはいけません。</li>
+        <li>他のプレイヤーのアカウントを不正に使用してはいけません。</li>
+        <li>アカウントの貸し借りによるトラブルは、自己責任となる場合があります。</li>
+        <li>処罰を回避するための別アカウント使用は禁止です。</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>11. 通報について</h2>
+
+      <p>
+        ルール違反を見つけた場合は、スタッフへ通報してください。
+      </p>
+
+      <p>通報するときは、できるだけ以下の情報を伝えてください。</p>
+
+      <ul>
+        <li>違反者のMinecraft ID</li>
+        <li>違反した日時</li>
+        <li>違反したゲームモード</li>
+        <li>違反内容</li>
+        <li>スクリーンショットや動画などの証拠</li>
+        <li>発生した場所</li>
+      </ul>
+
+      <p>
+        嘘の通報や、嫌がらせ目的の通報は禁止です。
+        証拠がない場合、すぐに処罰できないことがあります。
+      </p>
+    </section>
+
+    <section class="rule-card">
+      <h2>12. スタッフについて</h2>
+
+      <ul>
+        <li>スタッフの指示には従ってください。</li>
+        <li>スタッフへの暴言や嫌がらせは禁止です。</li>
+        <li>処罰に不満がある場合は、冷静に説明してください。</li>
+        <li>スタッフの判断を意図的に妨害してはいけません。</li>
+        <li>スタッフになりすます行為は禁止です。</li>
+      </ul>
+
+      <p>
+        スタッフも状況を確認したうえで対応します。
+        処罰内容は、違反の内容や回数によって変わる場合があります。
+      </p>
+    </section>
+
+    <section class="rule-card">
+      <h2>13. 処罰について</h2>
+
+      <p>
+        ルール違反をした場合、以下の対応が行われることがあります。
+      </p>
+
+      <ul>
+        <li>注意</li>
+        <li>警告</li>
+        <li>ミュート</li>
+        <li>キック</li>
+        <li>一時BAN</li>
+        <li>永久BAN</li>
+        <li>ランキングや記録の削除</li>
+        <li>アイテムや権限の削除</li>
+        <li>その他、必要な対応</li>
+      </ul>
+
+      <p class="warning">
+        違反の内容によっては、最初から重い処罰になる場合があります。
+      </p>
+    </section>
+
+    <section class="rule-card">
+      <h2>14. 禁止されている行為の例</h2>
+
+      <ul>
+        <li>チートを使っていないように見せかける行為</li>
+        <li>他のプレイヤーにチートを使わせる行為</li>
+        <li>処罰されたプレイヤーの代わりにプレイする行為</li>
+        <li>サーバーを落とす、重くする行為</li>
+        <li>大量のエンティティやアイテムを出す行為</li>
+        <li>意図的にラグを発生させる行為</li>
+        <li>サーバーの設定や管理情報を盗もうとする行為</li>
+        <li>スタッフの仕事を妨害する行為</li>
+        <li>他のプレイヤーをサーバーから追い出そうとする行為</li>
+        <li>処罰を回避するための嫌がらせや別アカウント使用</li>
+      </ul>
+    </section>
+
+    <section class="rule-card">
+      <h2>15. 最後に</h2>
+
+      <p>
+        MEXU 2は、みんなで楽しくPvPをするためのサーバーです。
+      </p>
+
+      <p>
+        勝敗に関係なく、相手へのマナーを大切にしてください。
+        ルールを守り、他のプレイヤーが楽しく遊べる環境を一緒に作りましょう。
+      </p>
+
+      <p>
+        <strong>MEXU 2 Owner：sukeboppo</strong>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    MEXU 2 Official Rules<br>
+    Owner: sukeboppo
+  </footer>
 </body>
 </html>
